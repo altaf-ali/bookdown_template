@@ -1,6 +1,11 @@
 language: r
-cache: packages
 
+sudo: false
+
+cache:
+  packages: yes
+  directories:
+    - $TRAVIS_BUILD_DIR/_bookdown_files
 env:
   global:
     - secure: "jTi/hr26g+iUfECNeLhSxkDNCRas7Zaoyx8ttxv9fJsKSnNnVXxJFhyb05P4ycmInpFf/fCFId/YQ7AQI1fPxs/fBxeX2ILY9HGtHjqGh4v93FuonZNA4jLIRzh4NamD0qqpce+kttLUu7+0RFDP6DH3h9+TEIILKOvy79FEWubhM08lfgOrUoST9vJjtfOtCNjGzxRlGjslpXoiuh81NUM+bs1z9+yhxJVnTgSDfYZkx0XitEDWqi23heG8AX4DxZYplc/NIGqpNUSSZJUma0IJ2fcpjCdQuHrvYRBJq4UcfhssPUcmqSYrEQFXJDxJWJeoYlaHFQgVjjMKfKrKDFRyGehMIKa024lrVbIcom0Ou3DjuUVNCm5E+zF6zu+0tXLjvnnWlTNSMve4wU2fGp3FLinZwutYM20dhFem6i48oZKTnHH23ezseSKDpOsjTHgpEYDYjvlw/FnwuoRG2XbuvJVjWZTsBKT9TVWu55sde6Q1RpTNn63n7TQVKLN2zayFFdgNesQ+Y7Ccakv/4wTnsb8RvdBNHBEzWPAAjsfP1sohOFBVR8TvB/hVu9GuqcRlWU6ASM13E/cygT4bYPDf0fDFZR8N/mCGMt9VhF3A3HNSs3Ad+SWbAOkzONvW+W2vVKdMv/w0iEwNMeRac2Ah8sTTmRJsug039yIKoM8="
