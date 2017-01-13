@@ -1,5 +1,3 @@
-#!/bin/bash
-
 set GIT_email = "altaf@fastmail.com"
 set GIT_name  = "Altaf Ali"
 
