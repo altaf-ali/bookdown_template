@@ -1,2 +1,2 @@
-GIT_email = "altaf@fastmail.com"
-GIT_name  = "Altaf Ali"
+set GIT_email = "altaf@fastmail.com"
+set GIT_name  = "Altaf Ali"

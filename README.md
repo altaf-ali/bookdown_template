@@ -25,7 +25,7 @@
 
 - Push all changes to GitHub
 
-- Run `./bin/setup.sh'
+- Run `./bin/setup.sh`
 
 # Acknowledgments
 
