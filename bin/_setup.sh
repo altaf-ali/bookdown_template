@@ -5,6 +5,8 @@
 # assume you have initialized the git repository,
 # and are under the directory of the book repository now
 
+set -ev
+
 # create a branch named gh-pages and clean up everything
 git checkout --orphan gh-pages
 git rm -rf .
