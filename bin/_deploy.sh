@@ -2,7 +2,8 @@
 
 set -ev
 
-source ./bin/_gitconfig.sh
+echo GIT_AUTHOR_NAME = ${GIT_AUTHOR_NAME}
+echo GIT_AUTHOR_EMAIL = ${GIT_AUTHOR_EMAIL}
 
 [ -z "${GITHUB_PAT}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
