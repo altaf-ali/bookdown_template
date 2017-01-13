@@ -13,9 +13,8 @@
 - Make the following changes to each file:
 
     |Filename       |Changes|
-    |---------------|----------------------------------|
-    |.travis.yml    |Replace the `secure` key with the encrypted token|
-    |.gitconfig     |Update `GIT_name` and `GIT_email`|
+    |---------------|--------------------------------------------------------------|
+    |.travis.yml    |Update `GIT_AUTHOR_NAME` and `GIT_AUTHOR_EMAIL` and replace the `secure` key with the encrypted token|
     |_bookdown.yml  |Update `rmd_files` as necessary|
     |DESCRIPTION    |Update `Package`, `Title`, `Version`, `Imports`, `Remotes`|
     |index.Rmd      |Update `title`, `github-repo`|
