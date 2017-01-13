@@ -2,13 +2,10 @@
 
 set -ev
 
-source ./.gitconfig
+source ./bin/_gitconfig.sh
 
 [ -z "${GITHUB_PAT}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
-
-git config --global user.email "${GIT_email}"
-git config --global user.name "${GIT_name}"
 
 git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
 
