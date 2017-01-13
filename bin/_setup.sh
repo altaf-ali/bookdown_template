@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # you only need to run this script once
 
 # assume you have initialized the git repository,
