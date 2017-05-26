@@ -1,6 +1,14 @@
 language: r
 
 sudo: false
+dist: trusty
+
+addons:
+  apt:
+    sources:
+    - sourceline: 'deb http://neurodeb.pirsquared.org trusty main'
+    packages:
+    - libnlopt-dev
 
 cache:
   packages: yes

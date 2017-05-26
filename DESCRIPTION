@@ -1,5 +1,5 @@
 Package: bookdown_template
-Title: Bookdown Template
+Title: My FANCY Project
 Version: 0.1.1
 Imports: bookdown, tidyverse
 Remotes: altaf-ali/bookdown_template
